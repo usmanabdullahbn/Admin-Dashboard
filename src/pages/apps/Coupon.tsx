@@ -67,21 +67,21 @@ const Coupon = () => {
               <input
                 type="checkbox"
                 checked={includeNumbers}
-                onChange={(e) => setIncludeNumbers((prev) => !prev)}
+                onChange={() => setIncludeNumbers((prev) => !prev)}
               />
               <span>Numbers</span>
 
               <input
                 type="checkbox"
                 checked={includeChracters}
-                onChange={(e) => setIncludeChracters((prev) => !prev)}
+                onChange={() => setIncludeChracters((prev) => !prev)}
               />
               <span>Characters</span>
 
               <input
                 type="checkbox"
                 checked={includeSymbols}
-                onChange={(e) => setIncludeSymbols((prev) => !prev)}
+                onChange={() => setIncludeSymbols((prev) => !prev)}
               />
               <span>Symbols</span>
             </fieldset>
